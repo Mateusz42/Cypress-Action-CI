@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "build": "echo \"No build step required\"",
     "cypress:open:chrome": "npx cypress run -b chrome --headed",
     "cybopress:open:firefox": "npx cypress run -b firefox --headed",
     "cypress:run:chrome:simple": "npx cypress run",
