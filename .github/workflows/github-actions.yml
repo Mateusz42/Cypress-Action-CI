@@ -1,20 +1,17 @@
 name: Cypress Tests using Cypress Docker Image
-
-on: 
+on:
   push:
     branches:
       - main
-
 jobs:
   cypress-run:
     runs-on: ubuntu-latest
-    
     steps:
       - name: Checkout
         uses: actions/checkout@v4
       - name: Cypress run
         run: npm install
-      - name:
+      - name: null
         run: npm run build:skrypt
-          start: npm start
-          browser: chrome
+        start: npm start
+        browser: chrome
