@@ -7,6 +7,7 @@
     "build": "echo \"No build step required\"",
     "cypress:open:chrome": "npx cypress run -b chrome --headed",
     "cybopress:open:firefox": "npx cypress run -b firefox --headed",
+    "cypress:run:chrome": "npx cypress run -b chrome --headed --spec cypress/e2e/pageObjectLoginUser.cy.js",
     "cypress:run:chrome:simple": "npx cypress run",
     "cypress:run": "npx cypress run"
 
