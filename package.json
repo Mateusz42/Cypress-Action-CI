@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build:skrypt": "cypress run --headless --browser chrome",
+    "build:skrypt": "npx cypress run --headless --browser chrome",
     "cypress:open:chrome": "npx cypress run -b chrome --headed",
     "cybopress:open:firefox": "npx cypress run -b firefox --headed",
     "cypress:run:chrome": "npx cypress run -b chrome --headed --spec cypress/e2e/pageObjectLoginUser.cy.js",
