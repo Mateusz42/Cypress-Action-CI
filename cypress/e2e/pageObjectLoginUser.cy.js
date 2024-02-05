@@ -1,3 +1,4 @@
+
 import LoginPage from "./../pages/loginPage";
 import HomePage from "../pages/homePage";
 
@@ -54,3 +55,5 @@ describe.only('user visit all tabs', () => {
         cy.wait(5000);
     });
 });
+
+
