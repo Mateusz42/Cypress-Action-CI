@@ -9,9 +9,9 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-      - name: Cypress run
+      - name: Install Dependencies
         run: npm install
-      - name: null
+      - name: Cypress run
         run: npm run build:skrypt
         start: npm start
         browser: chrome
